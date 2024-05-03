@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import "./globals.css";
-import { Navbar } from "../components/navbar/navbar"
+// import { Navbar } from "../components/navbar/navbar"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <AppRouterCacheProvider options={{ enableCssLayer: true }}>
         <body className={inter.className}>
-          <Navbar />
+          {/* <Navbar /> */}
           {children}
         </body>
       </AppRouterCacheProvider>

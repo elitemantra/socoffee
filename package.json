@@ -9,13 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/server": "^11.11.0",
+    "@mui/material-nextjs": "^5.15.11",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.40.0",
+    "install": "^0.13.0",
     "next": "14.2.3",
     "next-sanity": "^7.1.4",
+    "npm": "^10.7.0",
     "react": "^18",
     "react-dom": "^18",
     "sanity": "^3.40.0",
+    "sass": "^1.76.0",
     "styled-components": "^6.1.9"
   },
   "devDependencies": {
