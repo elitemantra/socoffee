@@ -1,0 +1,17 @@
+.hero-section {
+    height: calc(100vh - 3.75rem);
+    padding: 2rem 1rem;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 3fr 1fr;
+
+    .hero-post {
+        grid-column: span 3; 
+        padding: 2rem 1rem;
+    }
+
+    .previous-hero-story {
+        padding: 0.5rem 1rem;
+    }
+}
