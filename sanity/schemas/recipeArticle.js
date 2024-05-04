@@ -114,6 +114,12 @@ export const recipeArticle = {
             title: "Category",
             type: "array",
             of: [{ type: "reference", to: [{ type: "category" }] }],
+        },
+        {
+            name: "brewBarVideo",
+            title: "Brew Bar Video",
+            type: "array",
+            of: [{ type: "reference", to: [{ type: "brewBarVideo" }] }],
         }
     ],
 };

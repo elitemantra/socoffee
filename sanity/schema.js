@@ -1,7 +1,11 @@
 import { longFormArticle } from "./schemas/longFormArticle";
-import{ recipeArticle} from "./schemas/recipeArticle";
+import { recipeArticle } from "./schemas/recipeArticle";
 import { tag } from "./schemas/tag";
 import { category } from "./schemas/category";
+import { author } from "./schemas/author";
+import { brewBarVideo } from "./schemas/brewBarVideo";
+import { company } from "./schemas/company";
+import { people } from "./schemas/people";
 // import { sections } from "./schemas/sections";
 
 export const schema = {
@@ -10,6 +14,10 @@ export const schema = {
     longFormArticle,
     tag,
     category,
-    recipeArticle
+    recipeArticle,
+    author,
+    brewBarVideo,
+    company, 
+    people
   ],
 }

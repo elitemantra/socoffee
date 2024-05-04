@@ -1,5 +1,3 @@
-import { Rule } from "sanity";
-
 export const longFormArticle = {
   name: "longFormArticle",
   title: "Long Form Article",
@@ -54,6 +52,12 @@ export const longFormArticle = {
           fields: [{ type: "text", name: "alt", title: "Alt" }],
         },
       ],
+    },
+    {
+      name: "author",
+      title: "Author",
+      type: "array",
+      of: [{ type: "reference", to: [{ type: "author" }] }],
     },
     {
       name: "tags",
