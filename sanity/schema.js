@@ -6,6 +6,8 @@ import { author } from "./schemas/author";
 import { brewBarVideo } from "./schemas/brewBarVideo";
 import { company } from "./schemas/company";
 import { people } from "./schemas/people";
+import { influencer } from "./schemas/influencer";
+import { founder } from "./schemas/founder";
 // import { sections } from "./schemas/sections";
 
 export const schema = {
@@ -17,7 +19,9 @@ export const schema = {
     recipeArticle,
     author,
     brewBarVideo,
-    company, 
-    people
+    company,
+    people,
+    influencer,
+    founder,
   ],
-}
+};

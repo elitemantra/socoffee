@@ -1,0 +1,65 @@
+// hoverAnnotation.module.scss
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin-right: 2px;
+
+}
+
+.tooltipText {
+  visibility: hidden;
+  min-width: 220px; 
+  background-color: #ffffff; 
+  color: #202020; 
+  text-align: left;
+  border-radius: 8px;
+  padding: 16px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; 
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s; 
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.tooltipText2 {
+  visibility: hidden;
+  min-width: 220px; 
+  background-color: #161616; 
+  color: #dbdbdb; 
+  text-align: left;
+  border-radius: 8px;
+  padding: 16px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; 
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s; 
+
+  strong{
+    margin: 1rem;
+  }
+}
+
+.tooltip2:hover .tooltipText2 {
+  visibility: visible;
+  opacity: 1;
+}
+
