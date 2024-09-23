@@ -1,0 +1,22 @@
+<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="twitter" clip-path="url(#clip0_804_2252)">
+<g id="Clip path group">
+<mask id="mask0_804_2252" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="20">
+<g id="clip0_84_15697">
+<path id="Vector" d="M20.0847 0H0.0847168V20H20.0847V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_804_2252)">
+<g id="Group">
+<path id="Vector_2" d="M17.741 0H2.42847C1.13405 0 0.0847168 1.04933 0.0847168 2.34375V17.6562C0.0847168 18.9507 1.13405 20 2.42847 20H17.741C19.0354 20 20.0847 18.9507 20.0847 17.6562V2.34375C20.0847 1.04933 19.0354 0 17.741 0Z" fill="white"/>
+<path id="Vector_3" d="M13.9873 3.90625H16.0548L11.5379 9.06875L16.8516 16.0938H12.691L9.43226 11.8331L5.70351 16.0938H3.63478L8.46601 10.5719L3.36853 3.90625H7.63476L10.5804 7.80062L13.9873 3.90625ZM13.2616 14.8563H14.4073L7.01226 5.07875H5.78289L13.2616 14.8563Z" fill="#204027"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_804_2252">
+<rect width="20" height="20" fill="white" transform="translate(0.0847168)"/>
+</clipPath>
+</defs>
+</svg>
