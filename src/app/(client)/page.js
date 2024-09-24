@@ -339,7 +339,7 @@ export default function Home() {
       <div className="frame5">
         <img className="rectangle" src={rectangle5} alt="Coffeepreneurship" />
         <div className="frame-6">
-          <div className="text-wrapper-3">COFFEEPRENEURSHIP</div>
+          <div className="text-wrapper-3">LEGACY</div>
           <p className="text-wrapper-4">
             The Story of Mrs. Purnima and Harley Estates: A Legacy of Innovation, Scale, and International Acclaim
           </p>
@@ -349,6 +349,7 @@ export default function Home() {
       <div className="frame4">
         <img className="rectangle-2" src={rectangle6} alt="Soudh Ibrahim" />
         <div className="frame-6">
+        <div className="text-wrapper-3">COFFEEPRENEURSHIP</div>
           <div className="frame-7">
             <div className="frame-16">
               <p className="text-wrapper-4">
@@ -429,7 +430,7 @@ export default function Home() {
   </div>
   
   <div className="featured-box">
-    <div className="frame5">
+    <div className="frame50">
       <img className="ezgif-com-animated" src={newImage1} alt="Kalathmad Estate Story 1" />
       <div className="frame-6r">
         <p className="text-wrapper-4">
@@ -438,7 +439,7 @@ export default function Home() {
       </div>
     </div>
     
-    <div className="frame5">
+    <div className="frame50">
       <img className="ezgif-com-animated" src={newImage2} alt="Kalathmad Estate Story 2" />
       <div className="frame-6r">
         <p className="text-wrapper-4">

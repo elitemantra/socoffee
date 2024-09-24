@@ -115,7 +115,7 @@ h1 span
     object-fit: cover;
     height: 100vh;
     width: 100%;
-    filter: blur(3px);
+    /* filter: blur(3px); */
   }
 
   .content {
@@ -134,7 +134,8 @@ h1 span
   display: flex;
   justify-content: space-between;
   padding: 24px 5rem;
-  border-style: ridge;
+  border:0.5px solid #e6e6e6;
+  margin-top:-10px;
 }
 .bar
 {
@@ -194,8 +195,9 @@ img.subtract-2 {
 .featured-box
 {
   display: flex;
-  gap: 30px;
+  gap: 70px;
   align-items: center;
+  justify-content: space-between;
   padding-right: 5rem;
   
 }
@@ -277,8 +279,8 @@ img.subtract-2 {
   display: flex;
   align-items: center;
   margin: 4rem 0;
-  gap: 120px;
-  /* justify-content: space-between; */
+  gap: 24px;
+  justify-content: space-between;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -286,7 +288,8 @@ img.subtract-2 {
 }
 .frame5
 {
-  width: 600px;
+  width: 616px;
+  height: 700px;
 }
 .frame4
 {
@@ -660,7 +663,7 @@ img.vic {
   padding: 0;
 }
 
-.frame4,.frame5
+.frame4,.frame5,.frame51
 {
   width: 100%;
 }
