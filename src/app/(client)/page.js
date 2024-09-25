@@ -59,6 +59,13 @@ const instagramIcon = "/instagram.svg";
 const twitterIcon = "/twitter.svg";
 const arrow_copy = "/Arrow_copy.svg";
 
+const stories_img = "/source_shape.png";
+const article_img = "/Rectangle-10.png";
+const share_btn = "/Frame 232.png";
+const frame1670 = "/Frame1670.svg";
+const awarded_img = "/awarded_img.png"
+const ms_menon_img_one = "/ms-menon_img_one.png"
+const ms_menon_img_two = "/ms-menon-img-two.png"
 
 
 
@@ -563,6 +570,278 @@ export default function Home() {
     </div>
   </div>
 </div>
+
+
+{/* articale page */}
+
+  {/* Navbar */}
+  <div className="navbar">
+        <img className="layer" src={navlogo} alt="" />
+        <div className="bar">
+          <div className="lines"></div>
+          <div className="lines"></div>
+          <div className="lines"></div>
+        </div>
+        <div className="nav-link">
+          <div className="text-wrapper-15">About Us</div>
+          <div className="text-wrapper-15">Stories</div>
+        </div>
+      </div>
+
+
+{/* section one */}
+<div className="featured-stories-new">
+
+<div className="heading d-flex">
+      <div className="text-wrapper">FEATURED STORIES</div>
+      <img className="img" src={frame} alt="Frame" />
+      
+    </div>
+    <div className="frame-6r">
+        <p className="text-wrapper-4 article-heading">
+        Sunalini Menon: Breaking stereotypes & shaping India’s coffee narrative for over 50 years
+        </p>
+      </div>
+
+      <div className="stories_view-frame">
+      <img className="stories_img" src={stories_img} alt="Arrow Icon" />
+      <p>Karumbaiah Bk ·  6 mins read</p>
+      </div>
+</div>
+
+<div className="stories_hero_section">
+
+<div className="section-6 profile-overview">
+  <img className="subtract-5 p-10" src={subtract10} alt="Subtract 10" />
+  
+  <div className="text-wrapper-7 overview-heading">PROFILE OVERVIEW</div>
+  <p className="text-wrapper-8 overview-text">
+  Sunalini Menon, Asia's first female professional coffee taster, has over 50 years of experience in the Indian coffee industry. She began her career with the Coffee Board of India in 1971, introducing coffee cupping and promoting washed robustas, boosting India's global coffee reputation. In 1997, she founded Coffee Lab in Bengaluru, focusing on quality control and training. Her efforts have elevated Indian coffee varieties like Monsooned Malabar and Kaapi Royale on the world stage, making her a respected figure in the global coffee community.
+  </p>
+  
+</div>
+
+</div>
+
+<div className="main-content">
+
+<div className="article-content">
+       <span className="drop-cap">I</span>n the bustling heart of Bengaluru, where the air is tinged with the scent of coffee, Ms. Sunalini Menon’s story unfolds—a narrative steeped in tradition, yet brimming with a spirit of rebellion and innovation. Ms. Menon, renowned as Asia’s first professional woman coffee taster, embarked on a journey that overcame societal norms and led her to champion Indian coffee over the last 50 plus years.
+       </div>
+
+       <div className="article-content">
+
+        <span className="article-content-heading">A foundation steeped in progressive thought</span>
+        </div>
+        <div className="article-content">
+        Ms. Menon’s upbringing was framed within the conservative norms of a post-Independence India, where women's roles were predominantly domestic. However, her family life was a microcosm of tradition and progress. Living alongside her grandfather and his brothers, Ms. Menon grew up in an environment where educational and financial independence for women was not just encouraged but insisted upon.
+        </div>
+        <div className="article-content">
+        
+        Her grandfather was a school headmaster whose chance encounter with Annie Besant in the 1930s, a prominent British socialist, prompted a radical shift in his life's trajectory and led him to pursue higher education in London. From taking a ship to Oxford to study library science, to becoming a librarian at the Connemara Library and then the University of Madras, culminating as a Special Officer for Education in the then State of Madras, her grandfather’s experiences shaped his conviction that education was the key to breaking barriers and forging new paths. His education was enabled by her grandmother who sold her jewellery to fund his travel to London, a testament to their shared belief in the power of education and this became a guiding principle in Ms. Menon’s life.
+        
+        </div>
+
+        <div className="article-content">
+
+         <div className="article-img-box">
+         <img class="article_img" src={article_img} alt=" "/>
+         <p className="article_img_pera">Ms Menon in her magic workshop, ready to brew some coffee back to life.</p>
+
+         </div>
+        
+        </div>
+
+        <div className="article-content">
+
+        <span className="article-content-heading">From Tea Gardens to Coffee Aromas</span>
+        </div>
+        <div className="article-content">
+        Amidst this backdrop of progressive thought, Ms. Menon's path took an unexpected turn during her holidays spent in the lush tea gardens of her maternal uncle in the Munnar. Here, she first encountered the art of tea tasting. The vibrant estates, the rhythmic chatter oftea pickers, and the meticulous process of tea tasting left an indelible impression on her young mind. She watched, fascinated, as her uncle and other experts slurped tea noisily, evaluated its quality, and then spat it out—a ritual that seemed both peculiar and intriguing to her.
+        </div>
+        <div className="article-content">
+        
+        This experience with tea tasting lingered in her memory, a subtle yet significant influence that would later guide her professional choices. As Ms. Menon pursued her studies in Food Technology, she found herself at a crossroad, planning to further her education in dietetics in New York. However, destiny had other plans.
+        
+        </div>
+        <div className="article-content">
+        
+        While preparing for her journey abroad, Ms. Menon stumbled upon an advertisement in the newspaper. The Coffee Board of India was seeking an Assistant Cup Taster. The memory of her tea-tasting adventures in the hills in Munnar resurfaced, drawing a parallel to coffee. Intrigued by this serendipitous opportunity and reminded of the joyful spitting competitions of her youth, she decided to apply. This decision was not just a leap into the unknown; it was a nod to the past, an acknowledgment of the subtle ways her childhood experiences had shaped her interests.
+        
+        </div>
+
+        <div className="article-content">
+        
+        <div className="section-6 article-overview">
+  <img className="subtract-5 p-10" src={subtract10} alt="Subtract 10" />
+
+<div className="article-overview-content-box">
+  <div className="article-overview-content">
+  
+  <img className="frame-31 article-content-icon" src={frame1670} alt="Frame 167" />
+  <p className="article-overview-text">
+  “Our coffee is like a canvas painted with a multitude of flavors, each region offering its unique masterpiece.”
+
+  </p>
+  <span className="article-overview-text-name">
+-Sunalini Menon</span>
+  
+</div>
+
+<div className="share-btn">
+<img className="frame-232" src={share_btn} alt="Frame 232" />
+
+</div>
+</div>
+
+</div>
+ </div>
+
+ <div className="article-content">
+
+<span className="article-content-heading">The Interview: A story of Determination and Defiance</span>
+</div>
+<div className="article-content">
+Stepping into the interview room at the Coffee Board, in the early 1970s, was like entering a new world. Surrounded by seasoned professionals, all armed with doctorates and experience, Ms. Menon stood as the lone woman, the least qualified, and yet the most unique in her perspective. Amidst the clatter of typewriters and the hum of deep discussions, she felt a surge of determination. The cupping test was a revelation of her innate talent, and she managed to clear it easily.
+</div>
+<div className="article-content">
+However, the true test lay in the interview and after her first round she was categorically told that they wouldn’t be able to hire her as she was a woman and there was no such precedent. Ms. Menon was very upset but she challenged the gender bias, asserting her right to equal opportunity in a field dominated by men. She questioned the bias and built a case to be given this opportunity.
+</div>
+<div className="article-content">
+Her bold stance and undeniable competence swayed the final panel that was led by the then Chairman of The Coffee Board of India, Sri H.G.V. Reddy, leading to a groundbreaking decision. She was asked to sign a bond of service, marking her entry into the world of coffee as the very first woman hired by the Coffee Board of India in the year 1971.
+</div>
+
+<div className="article-content">
+
+<span className="article-content-heading">Charting Unfamiliar Terrains: The Early Struggles and Triumphs</span>
+</div>
+<div className="article-content">
+Ms. Menon's initiation into the Coffee Board marked the beginning of a tumultuous yet transformative journey. As the first woman in an arena reserved for men, she faced a maze of challenges. Navigating through scepticism, adapting to the intricate art of coffee cupping, and breaking through language and cultural barriers were just the initial hurdles. Despite these challenges, Ms. Menon's indomitable spirit, forged from the teachings of her progressive grandfather and her own inner resilience, shone through. She gradually carved a niche for herself, transforming initial resistance into respect and laying the foundation for a monumental journey.
+</div>
+<div className="article-content">
+Within 2 years, recognized by the Coffee Board of India for her exceptional potential, Ms. Menon was selected for advanced training in coffee cupping, a rare opportunity that propelled her onto the international stage. Under the guidance of a veteran coffee taster, who was in charge of the cupping room in Volkarts, Switzerland, Mr. Walter Zweifel, Ms. Menon delved into the depths of coffee cupping. These experiences were not just about acquiring technical skills but also about understanding the global language of coffee. Ms. Menon went on to have numerous such experiences and was eventually picked by Dr. Ernesto Illy, a family member of Illy Coffee, as his protégé. This turned out to be a cornerstone of her coffee journey.
+</div>
+
+
+<div className="article-content">
+
+         <div className="article-img-box">
+         <img className="article_img" src={awarded_img} alt=" "/>
+         <p className="article_img_pera">Ms Menon being awarded for the contributions she has made in the coffee space.</p>
+
+         </div>
+        
+        </div>
+
+
+
+
+        <div className="article-content">
+
+<span className="article-content-heading">Playing a key role in shaping India's coffee story</span>
+</div>
+<div className="article-content">
+Returning to India, Ms. Menon brought with her a wealth of knowledge and a fresh perspective on coffee. She embarked on a mission to learn from every department within the Coffee Board and this hands-on approach demystified the workings of the industry and helped her earn the respect of her colleagues.
+</div>
+<div className="article-content">
+The introduction of cupping in the Indian coffee industry was a major turning point, as Ms. Menon recalls. This paradigm shift in the 1990s was more than just a new technique;it represented a fundamental change in how coffee was valued and traded. Ms. Menon faced initial skepticism, with farmers concerned about the subjectivity of this approach. "They thought I would rate their coffee based on my mood," she reminisces. However, she tirelessly worked to educate them, demonstrating how cupping could ensure a fair and quality-based payment system. Gradually, cupping became an essential tool, revolutionising the industry and elevating the standards of Indian coffee.
+</div>
+<div className="article-content">
+Another significant milestone was the introduction of washed robustas in 1985. "It was a challenging but necessary move," she says. The introduction required significant resources, including machinery, water, and labor. Despite initial resistance from farmers, who were used to traditional methods and were skeptical of the investment, the quality of washed robustas eventually spoke for itself. These efforts paved the way for specialty coffees like Monsooned Malabar and Kaapi Royale, which marked India's entry into the global specialty coffee market.
+</div>
+<div className="article-content">
+Ms. Menon fondly remembers the excitement that these innovations brought. "It was as if we had unlocked a secret treasure of flavors that were uniquely Indian," she says. The Monsooned Malabar, with its distinct mellow flavor and low acidity, achieved through a process of exposing green coffee beans to the monsoon winds of the Malabar coast, became a global favourite. Similarly, Kaapi Royale, known for its bold and robust flavors, carved out a niche in the specialty coffee market.
+</div>
+<div className="article-content">
+Slowly but surely, India had begun taking small steps to get noticed on the global coffee stage.
+</div>
+
+<div className="article-content">
+        
+        <div className="section-6 article-overview">
+  <img className="subtract-5 p-10" src={subtract53} alt="Subtract 10" />
+
+<div className="article-overview-content-box">
+  <div className="article-overview-content">
+  
+  <img className="frame-31 article-content-icon" src={frame1670} alt="Frame 167" />
+  <p className="article-overview-text">
+  “The future of Indian coffee lies in <br/>our ability to work together, to <br/> share knowledge, and collectively <br/>elevate our craft.”
+
+
+  </p>
+  <span className="article-overview-text-name">
+-Sunalini Menon</span>
+  
+</div>
+
+<div className="share-btn">
+<img className="frame-232" src={share_btn} alt="Frame 232" />
+
+</div>
+</div>
+
+</div>
+ </div>
+
+
+ <div className="article-content">
+
+<span className="article-content-heading">The Rich Palette of Indian Coffee</span>
+</div>
+<div className="article-content">
+Indian coffee's strength, Ms. Menon believes, lies in its incredible diversity. "Our coffee is like a canvas painted with a multitude of flavors," she explains. Each region of India, from the Western Ghats to the Eastern Highlands, offers coffee beans with unique characteristics. Ms. Menon's role in identifying and promoting these diverse flavors has been crucial. She recalls her travels across coffee plantations, tasting and understanding the subtle differences in each bean – from the citrusy notes of Arabica beans in Chikmagalur to the spicy undertones of Robusta from Wayanad.
+</div>
+<div className="article-content">
+Ms. Menon’s approach to coffee tasting was always holistic. She didn’t just taste the coffee; she immersed herself in the nuances of each bean, understanding the soil, the climate, the people, and the traditions that shaped its flavor. This deep understanding allowed her to introduce these diverse Indian coffees to the world in a way that celebrated their uniqueness.
+</div>
+
+
+<div className="image-container-two">
+            <div className="image-item">
+            <img className="" src={ms_menon_img_one} alt="Frame 232" />
+            <p className="caption article_img_pera"> Ms Menon doing what she does best; sampling her coffee <br/> at a brewing workshop.</p>
+                
+            </div>
+            <div className="image-item">
+            <img className="" src={ms_menon_img_two} alt="Frame 232" />
+            <p className="caption article_img_pera">Next to the coffee plant in her office at Sadashivanagar,
+              <br/> Bengaluru.</p>
+
+
+              
+            </div>
+
+         
+        </div>
+
+
+
+
+
+        <div className="article-content">
+
+<span className="article-content-heading">Her Call to action for the Indian coffee community</span>
+</div>
+<div className="article-content">
+As Ms. Menon looks to the future, her vision for the Indian coffee industry is clear: collaboration and education are key. She envisions a coffee community where growers, roasters, baristas, and consumers come together to share knowledge and experiences. "The future of Indian coffee lies in our ability to work together, learn from each other, and collectively elevate our coffee," she asserts
+</div>
+
+<div className="article-content">
+Ms. Menon's call to action is for a unified approach to promoting Indian coffee. She imagines a future where Indian coffees are not just known for their diversity but are also celebrated for their quality on the global stage. Her dream is to see Indian coffee garner the same reverence and respect as the world’s most renowned coffee varietals and origins. This, she believes, can only be achieved through a collective effort that brings together every stakeholder in thecoffee value chain.
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
 
 
 {/* <div className="home-page-container">
