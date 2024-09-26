@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { getLongArticleList } from "../../../sanity/services/longArticles";
+import { getLongArticleList } from "../../../../sanity/services/longArticles";
 import { XEmbed } from "react-social-media-embed";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
