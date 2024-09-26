@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { getLongArticleList } from "../../../../sanity/services/longArticles";
+import { getLongArticleList } from "../../../sanity/services/longArticles";
 import { XEmbed } from "react-social-media-embed";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
@@ -215,7 +215,7 @@ export default function Home() {
       </div>
 
       {/* Navbar */}
-      <div className="navbar">
+      <div className="navbar sticky-navbar">
         <img className="layer" src={navlogo} alt="" />
         <div className="bar">
           <div className="lines"></div>
@@ -597,7 +597,7 @@ export default function Home() {
           <p className="text-wrapper-10">
             Let’s chat over a cup of coffee? Please write to:
           </p>
-          <div className="featured-box">
+          <div className="featured-box-footer-mail">
             <img className="mail" src={mailIcon} alt="Mail Icon" />
             <div className="text-wrapper-10">hello@socoffee.club</div>
           </div>

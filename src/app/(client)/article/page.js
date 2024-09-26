@@ -1,11 +1,11 @@
 "use client";
 import { useEffect, useState } from "react";
-import { getLongArticleList } from "../../../sanity/services/longArticles";
+import { getLongArticleList } from "../../../../sanity/services/longArticles";
 import { XEmbed } from "react-social-media-embed";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 import HoverAnnotation from "@/components/hoverAnnotations/HoverAnnotation2";
-import { urlForImage } from "../../../sanity/lib/image";
+import { urlForImage } from "../../../../sanity/lib/image";
 import Link from "next/link";
 
 // Image import from public folder
@@ -66,6 +66,12 @@ const frame1670 = "/Frame1670.svg";
 const awarded_img = "/awarded_img.png";
 const ms_menon_img_one = "/ms-menon_img_one.png";
 const ms_menon_img_two = "/ms-menon-img-two.png";
+const Subtract_upper = "/Subtract-upper.png"
+const Subtract_lower = "/Subtract-lower.png"
+const screenshot_insta = "/Screenshot_2024-09-08_120435-removebg-preview 1.png"
+const featured_stories_section_img_one = "/featured-stories-section-img-1.png"
+const featured_stories_section_img_two = "/featured-stories-section-img-2.png"
+const featured_stories_section_img_three = "/featured-stories-section-img-3.png"
 
 const myPortableTextComponents = {
   block: {
@@ -189,7 +195,7 @@ export default function Home() {
       {/* articale page */}
 
       {/* Navbar */}
-      <div className="navbar">
+      <div className="navbar fixed-navbar">
         <img className="layer" src={navlogo} alt="" />
         <div className="bar">
           <div className="lines"></div>
@@ -204,9 +210,9 @@ export default function Home() {
 
       {/* section one */}
       <div className="featured-stories-new">
-        <div className="heading d-flex">
-          <div className="text-wrapper">FEATURED STORIES</div>
-          <img className="img" src={frame} alt="Frame" />
+        <div className="heading d-flex heading-mobile">
+          <div className="text-wrapper text-wrapper-phone">FEATURED STORIES</div>
+          <img className="img arrow-img-phone" src={frame} alt="Frame" />
         </div>
         <div className="frame-6r">
           <p className="text-wrapper-4 article-heading">
@@ -231,13 +237,13 @@ export default function Home() {
           <p className="text-wrapper-8 overview-text">
             Sunalini Menon, Asia's first female professional coffee taster, has
             over 50 years of experience in the Indian coffee industry. She began
-            her career with the Coffee Board of India in 1971, introducing
+            her career with the Coffee Board of India in 1971, introducing <span className="overview-text-mobile">
             coffee cupping and promoting washed robustas, boosting India's
             global coffee reputation. In 1997, she founded Coffee Lab in
             Bengaluru, focusing on quality control and training. Her efforts
             have elevated Indian coffee varieties like Monsooned Malabar and
             Kaapi Royale on the world stage, making her a respected figure in
-            the global coffee community.
+            the global coffee community.</span>
           </p>
         </div>
       </div>
@@ -580,7 +586,129 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="box2"></div>
+      <div className="section-last">
+  <div className="article-insta-section">
+    <img src={Subtract_upper} alt="" />
+
+    <div className="container">
+      <div className="text-section">
+        <span>So,</span>
+        <span>
+          Follow us on <span className="instagram">Instagram</span>
+        </span>
+      </div>
+
+      <div className="instagram-card">
+        <img
+          src={screenshot_insta}
+          alt=""
+        />
+      </div>
+    </div>
+    <img src={Subtract_lower} alt="" />
+  </div>
+
+  <div className="featured-stories-section">
+    <div className="container-stories-section">
+      <div style={{display:"flex"}}>
+      <h2 className="featured-stories-section-heading">
+        More from featured stories
+      </h2>
+      <img class="img arrow-img-phone" src="/Frame.svg" alt="Frame"></img>
+      </div>
+      <div className="card-container">
+        <div className="card">
+          <img src={featured_stories_section_img_one} alt="Story 1" />
+          <p className="card-text">
+            Nestled in the hills of Kalathmad in Coorg, lies the lush green
+            KarkuKaad estate.
+          </p>
+        </div>
+        <div className="card">
+          <img src={featured_stories_section_img_two} alt="Story 2" />
+          <p className="card-text">
+            Mithila Vazalwar: Champion of New India’s Coffee, From Aeropress to
+            Corridor Seven.
+          </p>
+        </div>
+        <div className="card">
+          <img src={featured_stories_section_img_three} alt="Story 3" />
+          <p className="card-text">
+            Soudh Ibrahim’s Journey: From Sakleshpur’s Accidental Barista to
+            enabling the coffee shops in I...
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* footer */}
+<div className="footer">
+        <div className="part-1">
+          <div className="left">
+            <img className="frame-36" src={frame36} alt="Frame So Coffee" />
+            <div className="frame-37">
+              <div className="what-is-so-coffee-wrapper">
+                <p className="what-is-so-coffee">
+                  <span className="span">
+                    What is <br />
+                  </span>
+                  <span className="text-wrapper-9">So,Coffee?</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="right">
+            <div className="frame-38">
+              <p className="text-wrapper-10">
+                SoCoffee is a digital catalyst for India’s coffee ecosystem,
+                with the objective of addressing the farm-to-cup gap through a
+                digital-first approach. By leveraging content and digitization,
+                SoCoffee aims to connect growers, businesses, and consumers in a
+                seamless, scalable way. Our platform brings inspiring stories,
+                valuable information, and resources to empower every stakeholder
+                in the coffee value chain.
+              </p>
+              <button className="button-3 d-flex">
+                <div className="sign-up-3">Know more about us</div>
+                <img className="arrow-2" src={arrow_copy} alt="Arrow Icon" />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className="part-2">
+          <p className="text-wrapper-10">
+            Let’s chat over a cup of coffee? Please write to:
+          </p>
+          <div className="featured-box-footer-mail">
+            <img className="mail" src={mailIcon} alt="Mail Icon" />
+            <div className="text-wrapper-10">hello@socoffee.club</div>
+          </div>
+
+          <div className="featured-box d-flex">
+            <div className="left d-flex">
+              <img className="copyright" src={copyrightIcon} alt="Copyright Icon" />
+              <div className="text-wrapper-10">
+                SoCoffee Origins Private Limited
+              </div>
+            </div>
+            <div className="right2 d-flex g-20">
+              <div className="d-flex g-10">
+                <img className="img-3" src={instagramIcon} alt="Instagram Icon" />
+                <div className="text-wrapper-10">Instagram</div>
+              </div>
+              <div className="d-flex g-10">
+                <img className="img-3" src={twitterIcon} alt="Twitter Icon" />
+                <div className="text-wrapper-10">X.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ 
 
       {/* <div className="home-page-container">
         <h2 style={{ textAlign: "center" }}>{data?.title}</h2>

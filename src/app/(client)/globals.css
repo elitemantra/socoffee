@@ -254,6 +254,7 @@ img.subtract-2 {
   width: 15px;
   left: 0;
 }
+
 .subtract-52 {
   bottom: 0;
   top: 60.2%;
@@ -419,7 +420,7 @@ img.subtract-2 {
 }
 .footer
 {
-  padding: 7rem;
+  padding: 70px 100px;
   background-color: #204027;
 }
 .text-wrapper-10 {
@@ -458,19 +459,27 @@ img.subtract-2 {
 }
 .right
 {
-  width: 70%;
+
   display: flex;
   align-items:end ;
   text-align: right;
 
+}
+.frame-37{
+  margin-top:18px;
 }
 .button-3
 {
   padding: 20px 24px;
   font-size: 16px;
   color: #fff;
-  margin-top: 2rem;
+  margin-top: 20px;
   background-color: transparent;
+  width: 246px;
+  height: 56px;
+}
+.part-2 {
+  margin-top:100px;
 }
 .part-2 .text-wrapper-10 {
   text-align: left;
@@ -478,6 +487,10 @@ img.subtract-2 {
 .copyright
 {
   margin-right: 20px;
+  width: 18PX;
+}
+.mail{
+  width: 24px;
 }
 .featured-box.d-flex {
   display: flex;
@@ -486,10 +499,10 @@ img.subtract-2 {
 }
 .g-20
 {
-  gap: 30px;
+  gap: 60px;
 }
 .left.d-flex {
-  gap: 15px;
+  
 }
 .g-10
 {
@@ -500,12 +513,22 @@ img.subtract-2 {
   flex-direction: column;
   align-items: end;
   justify-content: center;
+  width: 827px;
+  height: 267px;
 }
 button.button-3.d-flex {
   align-items: center;
   justify-content: center;
   gap: 10px;
   border: 1px solid white;
+}
+
+.featured-box-footer-mail{
+  display: flex;
+	gap: 14px;
+	align-items: center;
+	/* justify-content: space-between; */
+	padding-right: 5rem;
 }
 
 /* @media quuery  */
@@ -517,9 +540,17 @@ button.button-3.d-flex {
     box-sizing: border-box;
   }
   .heading .text-wrapper {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 900;
 }
+.fram400{
+  padding:2px 2px;
+}
+.frame200{
+  padding:2px 2px;
+  width:261px;
+}
+
   .content
   {
     padding: 10px;
@@ -616,7 +647,7 @@ img.vic {
 {
   font-size: 10px;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 }
 .frame-6
 {
@@ -695,9 +726,7 @@ img.vic {
 /* section 4 */
 .section-4
 {
-  
-  padding: 5rem 0rem 0 0rem;
-  
+  padding: 2rem;
 }
 .section-4 .frame-6
 {
@@ -710,7 +739,14 @@ img.vic {
 .section-4 .featured-box
 {
   flex-direction: column;
-  padding: 0;
+  padding: 10px;
+}
+.frame5{
+	width: 100%;
+	height: 500px;
+}
+.frame-6{
+  margin-bottom:20px;
 }
 /* .section-5 */
   .section-5 
@@ -825,6 +861,35 @@ p.what-is-so-coffee {
 {
   gap:0px;
 }
+.what-is-so-coffee-wrapper{
+  margin-bottom:40px;
+}
+.part-2 {
+	margin: 5rem 0;
+}
+.right2.d-flex.g-20 {
+	width: 100%;
+	justify-content: space-between;
+}
+.left.d-flex {
+	gap: 0px;
+	font-size: 8px;
+	margin-left: -20px;
+}
+.section-4 .frame-6 {
+	padding: 15px;
+}
+.section-4 .frame-6r {
+	padding: 15px;
+}
+.section-4 .rectangle-2 {
+	width: 261px;
+	
+}
+.section-4 .rectangle-3 {
+	width: 261px;
+	
+}
   }
   
 
@@ -876,7 +941,7 @@ position: relative;
   .profile-overview{
     background: #fff;
     width: 1120px;
-height: 572px;
+height: auto;
 border:1px solid #acacac;
 padding: 60px 80px 60px 80px;
 gap: 16px;
@@ -910,7 +975,6 @@ margin-left: 70px;
 
   .main-content{
     width: 1240px;
-    height: 500px;
     margin-top:600px;
     margin-left:220px
   }
@@ -1016,4 +1080,306 @@ box-sizing: border-box;
 }
 .caption {
   margin-top: 10px;
+}
+.sticky-navbar{
+  position: sticky;
+}
+.fixed-navbar{
+  position: fixed;
+  z-index: 1000;
+  background: #fff;
+}
+
+.article-insta-section{
+  height:auto;
+  width: 1200px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.text-section {
+  font-family: BrochaW00-Bold;
+font-size: 51.84px;
+font-weight: 700;
+line-height: 69.66px;
+text-align: left;
+color:#b2b2b2
+}
+
+.text-section span {
+  display: block;
+  color: #b2b2b2;
+
+}
+
+.text-section .instagram {
+  color: #87B79D;
+  font-weight: bold;
+}
+
+.instagram-card {
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 350px;
+  position: relative;
+}
+
+.instagram-card img {
+  width: 100%;
+}
+
+
+
+
+.featured-stories-section{
+  width: 1200px;
+  height: auto;
+  margin: 70px auto;
+  
+}
+
+.container-stories-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+}
+
+.featured-stories-section-heading {
+font-family: BrochaW00-Semibold;
+font-size: 24px;
+text-align: left;
+font-weight: 600;
+line-height: 40px;
+color:#1e1e13;
+text-transform: uppercase;
+margin-bottom:24px;
+
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 360px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  font-family: Palatino Linotype;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color:#1e1e13;
+  margin-top:24px;
+  
+}
+.article-insta-section{
+  margin: 50px auto;
+}
+.featured-stories-section{
+
+}
+
+@media (max-width: 768px) {
+  .card-container {
+      flex-direction: column;
+      gap: 20px; /* Reducing the gap on smaller screens */
+  }
+}
+
+@media screen and (max-width:550px) {
+
+  .article-heading{
+    font-family: Palatino Linotype;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+
+  }
+  .text-wrapper-phone{
+    font-family: BrochaW00-Semibold;
+font-size: 14px !important;
+font-weight: 600 !important;
+line-height: 10.32px !important;
+text-align: left;
+
+  }
+
+  .featured-stories-new{
+    padding: 20px;
+    margin-top:104px !important;
+  }
+  .arrow-img-phone{
+    width: 11px;
+    height: 11px;
+  }
+  .heading-mobile{
+    text-align: left !important;
+  }
+
+  .stories_hero_section{
+    width: 100vw;
+height: 478px;
+  }
+  .profile-overview{
+    top:300px;
+left:6px;
+padding: 20px;
+height:auto;
+width:380px;
+margin: 0 auto;
+
+  }
+
+  .overview-heading{
+    font-family: BrochaW00-Bold;
+font-size: 12px;
+font-weight: 700;
+line-height: 10px;
+text-align: left;
+
+
+  }
+  .overview-text{
+    font-family: BrochaW00-Regular;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+  }
+  .article-content{
+    font-family: Palatino Linotype;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-top:-50px;
+
+  }
+  .main-content{
+    width: 360px;
+  margin-top: 370px;
+  margin-left: 10px;
+  padding: 20px;
+
+  }
+  .article-content{
+    padding: 30px 10px;
+  }
+  .article_img {
+    width: 100%; /* Make it take the full width of the container */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  }
+
+  .article-overview {
+    width: 100%; /* Make it take the full width of the container */
+    height: auto; /* Let the height adjust based on content */
+    padding: 20px 20px 20px 20px; /* Adjust padding to be more mobile-friendly */
+    gap: 8px; /* Reduce gap to fit smaller screens */
+  }
+  .article-overview-text{
+    font-family: BrochaW00-Regular;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+  }
+  .article-overview-content {
+    width: 208px;
+    height: 227.17px;
+    padding: 1.5px 24px 17.5px 16px;
+    gap: 16px;
+  }
+ .article-content-icon{
+  width: 67.12px;
+height: 38px;
+gap: 0px;
+
+ }
+ .article-overview-text-name{
+  font-family: BrochaW00-Bold;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+
+ }
+ .share-btn img{
+  height: 32px;
+  width: 32px;
+ }
+ .article-content-heading{
+  font-family: Palatino Linotype;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+ }
+ .image-item img{
+  width: 137.5px;
+height: 218.75px;
+gap: 0px;
+
+ }
+ .article_img_pera{
+  font-family: Palatino Linotype;
+font-size: 10px;
+font-style: italic;
+font-weight: 400;
+line-height: 12px;
+text-align: left;
+
+ }
+ .image-container-two{
+  margin-bottom:24px;
+ }
+ .article-insta-section{
+  width: 300px;
+  height: 265px;
+ }
+ .text-section {
+  text-align: center;
+  max-width: 100%;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.instagram-card {
+  max-width: 100%;
+}
+.instagram-card img{
+  width: 156.48px;
+height: 205.78px;
+}
+.container{
+  flex-direction: row;
+}
+.featured-stories-section-heading{
+  font-family: BrochaW00-Semibold;
+font-size: 14px;
+font-weight: 600;
+line-height: 10px;
+text-align: center;
+
+}
 }
