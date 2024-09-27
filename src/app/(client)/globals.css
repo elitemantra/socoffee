@@ -1,6 +1,72 @@
+@import url(https://db.onlinewebfonts.com/c/d02704bcbf6645d6a315fffd1ce9a296?family=Brocha+W00+Regular);
+@import url(https://db.onlinewebfonts.com/c/3f6b25d74dc0ab73595e387ddc43a236?family=Brocha+W00+Semibold);
+@import url(https://db.onlinewebfonts.com/c/0f061393ca256198aa7f3a9c1bfb370a?family=Brocha+W00+Bold);
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: 'Palatino Linotype';
+  src: url('../../../public/palatino-linotype.ttf') format('truetype'),
+ 
+}
+
 
 * {
   box-sizing: border-box;
+}
+h1{
+  font-family: Palatino Linotype;
+font-size: 44px;
+font-weight: 700;
+line-height: 55px;
+text-align: left;
+
+}
+p{
+  
+font-family: Palatino Linotype;
+
+}
+.stories_view-frame p{
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+font-family: "Libre Franklin", sans-serif;
+}
+
+.stories_view-frame span{
+  font-family: "Brocha W00 Regular";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  
+  }
+
+
+.text-wrapper-2{
+  font-family: "Brocha W00 Regular";
+  font-weight: 500 !important;
+}
+
+.sign-up, .sign-up-1, .sign-up-2, .sign-up-3{
+  font-family: "Brocha W00 Regular";
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+
+}
+.text-wrapper-3 {
+	font-weight: 700;
+}
+.text-wrapper-15{
+font-family: "Brocha W00 Semibold";
+font-size: 20px;
+font-weight: 600;
+line-height: 36px;
+text-align: left;
+
 }
 
 html,
@@ -191,6 +257,7 @@ img.subtract-2 {
 .heading .text-wrapper
 {
   font-size: 24px;
+  font-family:  'BrochaW00-Semibold';
 }
 .featured-box
 {
@@ -335,7 +402,12 @@ img.subtract-2 {
 }
 .text-wrapper-4
 {
-  font-size: 24px;
+
+  font-family: Palatino Linotype;
+font-size: 24px;
+font-weight: 400;
+text-align: left;
+
 }
 
 
@@ -392,8 +464,8 @@ img.subtract-2 {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
-  font-family: "BrochaW00-Semibold-Regular", Helvetica;
-  font-weight: 400;
+  font-family: "Brocha W00 Semibold";
+  font-weight: 600;
   color: #1e1e13;
   font-size: 24px;
   text-align: center;
@@ -427,7 +499,7 @@ img.subtract-2 {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
-  font-family: "BrochaW00-Regular-Regular", Helvetica;
+  font-family: "Brocha W00 Regular";
   font-weight: 400;
   color: #ffffff;
   font-size: 20px;
@@ -440,7 +512,7 @@ img.subtract-2 {
   align-self: stretch;
   margin-top: -0.66px;
   color: #fff;
-  font-family: "BrochaW00-Bold-Regular", Helvetica;
+  font-family: "Brocha W00 Bold";
   font-weight: 700;
   font-size: 42.5px;
   letter-spacing: 0;
@@ -964,7 +1036,7 @@ color: #1E1E13;
 
   }
   .overview-heading{
-    font-family: BrochaW00-Bold;
+    font-family: "Brocha W00 Bold";
 font-size: 24px;
 font-weight: 700;
 line-height: 40px;
@@ -1029,7 +1101,7 @@ opacity: 0px;
 }
 
 .article-overview-text{
-  font-family: BrochaW00-Bold;
+  font-family: "Brocha W00 Bold";
 font-size: 44px;
 font-weight: 700;
 line-height: 56px;
@@ -1040,7 +1112,7 @@ color: #666666;
 }
 
 .article-overview-text-name{
-  font-family: BrochaW00-Regular;
+  font-family: "Brocha W00 Regular";
 font-size: 32px;
 font-weight: 500;
 line-height: 72px;
@@ -1103,7 +1175,7 @@ box-sizing: border-box;
 }
 
 .text-section {
-  font-family: BrochaW00-Bold;
+  font-family: "Brocha W00 Bold";
 font-size: 51.84px;
 font-weight: 700;
 line-height: 69.66px;
@@ -1235,10 +1307,10 @@ text-align: left;
     text-align: left !important;
   }
 
-  .stories_hero_section{
+  /* .stories_hero_section{
     width: 100vw;
 height: 478px;
-  }
+  } */
   .profile-overview{
     top:300px;
 left:6px;

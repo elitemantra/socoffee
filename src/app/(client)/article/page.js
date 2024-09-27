@@ -223,11 +223,15 @@ export default function Home() {
 
         <div className="stories_view-frame">
           <img className="stories_img" src={stories_img} alt="Arrow Icon" />
-          <p>Karumbaiah Bk · 6 mins read</p>
+          <p>Karumbaiah Bk · <span>6 mins read </span> </p>
         </div>
       </div>
 
       <div className="stories_hero_section">
+
+     
+
+
         <div className="section-6 profile-overview">
           <img className="subtract-5 p-10" src={subtract10} alt="Subtract 10" />
 
@@ -610,7 +614,7 @@ export default function Home() {
 
   <div className="featured-stories-section">
     <div className="container-stories-section">
-      <div style={{display:"flex"}}>
+      <div style={{display:"flex", width:"100%"}}>
       <h2 className="featured-stories-section-heading">
         More from featured stories
       </h2>
