@@ -703,6 +703,10 @@ img.vic {
 }
 
 
+.subtract-5 {
+  width: 5px;
+}
+
 /* section 2 */
 .Section-2
 {
@@ -1003,11 +1007,18 @@ height: 36px;
 height: 814px;
 gap: 0px;
 opacity: 0px;
-background-image: url(../../../public/954466b55d2f348b933aa20166600087.jpeg);
+background-image: url(/954466b55d2f348b933aa20166600087.jpeg);
 background-repeat: no-repeat;
 background-position: center;
 margin:0 auto;
 position: relative;
+  }
+
+  @media screen and (max-width:550px) {
+    .stories_hero_section {
+      width: 100%;
+      height: 400px;
+    }
   }
 
   .profile-overview{
@@ -1046,7 +1057,7 @@ margin-left: 70px;
   }
 
   .main-content{
-    width: 1240px;
+    width: auto;
     margin-top:600px;
     margin-left:220px
   }
@@ -1243,7 +1254,7 @@ margin-bottom:24px;
 }
 
 .card {
-  max-width: 360px;
+  max-width: 300px;
   overflow: hidden;
 }
 
@@ -1313,11 +1324,12 @@ height: 478px;
   } */
   .profile-overview{
     top:300px;
-left:6px;
+left:0;
 padding: 20px;
+margin: 20px;
 height:auto;
-width:380px;
-margin: 0 auto;
+width:auto;
+margin: 10 auto;
 
   }
 
@@ -1348,9 +1360,10 @@ margin-top:-50px;
 
   }
   .main-content{
-    width: 360px;
-  margin-top: 370px;
+    width: auto;
+  margin-top: 400px;
   margin-left: 10px;
+  margin-right: 10px;
   padding: 20px;
 
   }
@@ -1425,7 +1438,7 @@ text-align: left;
   margin-bottom:24px;
  }
  .article-insta-section{
-  width: 300px;
+  width: auto;
   height: 265px;
  }
  .text-section {
